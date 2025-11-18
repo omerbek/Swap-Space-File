@@ -36,9 +36,9 @@ If the system uses **hibernation**, swap should be at least equal to the amount 
 ---
 
 ## 🟢 View Active Swap
-```shell
+```
 swapon --show
-
+```
 🟢 Add Swap Space (Example: 2 GB Swap File)
 ```
 sudo fallocate -l 2G /swapfile
